@@ -18,7 +18,7 @@ class ContadorClick extends Component {
     // Método para incrementar o contador
     contar = () => {
         this.setState({ // Atualizando o estado do componente
-            contador: this.state.contador + 1 // Incrementando o valor do contador
+            contador: this.state.contador +1 // Incrementando o valor do contador
         });
     }
 
